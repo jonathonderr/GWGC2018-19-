@@ -1,0 +1,64 @@
+i
+[Alert]: ROOMTRAK.exe starting
+[Alert]: Tracking Agent Data
+[Alert]: Inspecting ELEMENTS
+[Alert]: Initiating EmergencyEscape.protocol
+Choose your difficulty
+/i
+a
+[Daniel Madcliffe][3 3 4 5][0.3 0.8 0.2][0.8 0.2 0.3]
+[Steve Clobs][3 3 4 5][0.3 0.8 0.2][0.8 0.2 0.3]
+[Phil Mates][3 3 4 5][0.3 0.8 0.2][0.8 0.2 0.3]
+[Stephanie Say-Sous][3 3 4 5][0.3 0.8 0.2][0.8 0.2 0.3]
+[Siobhan Shooketh][3 3 4 5][0.3 0.8 0.2][0.8 0.2 0.3]
+[Adam Baker][3 3 4 5][0.3 0.8 0.2][0.8 0.2 0.3]
+/a
+r
+[Airlock][Outside the stars seem to be rotating, ...or maybe the ship is?][N][0.0 1.0 0.0][None][N][N]
+[Engine Room][This room is full of machinery and engines. The engines are idle][O][0.0 1.0 0.0][{Start Engines}{C}{(M+4}][The engines whir to life, emitting a low-pitch hum][The engines sputter, but do not start. You need fuel]
+[Thrusters Fuel Room][It's the fuel room. I can try to fuel the engines if you need me too][E][1.0 1.0 0.0][{Refuel}{C}{I+4}][The thrusters and engines are now filled][I didn't manage to fuel it, but I'll keep trying]
+[Bridge][The bridge is motionless. There are stone statues in the shape and place of crew members. I can't discern their faces][E][6.0 3.0 0.0][None][N][N]
+[Secondary Command Room][It's the secondary command room][O][0.0 1.0 0.0][None][N][N]
+[Artillary][There are only a few weapons left here. It seems like the passengers were scavenging to defeat something...][I][1.0 0.0 0.0][None][N][N]
+[Chaplains Quarters][These quarters seem...peaceful. If I could just stay here for a while...I would like that.][N][0.0 1.0 9.0][{Resist}{NC}{S+3}][Yeah, I don't need to stay here][Snore...]
+[Long Hallway][This hallway seems much longer than others][N][0.0 1.0 0.0][None][N][N]
+[Short Hallway][This hallway seems much shorter than others][N][0.0 1.0 0.0][None][N][N]
+[Hallway][This hallway...is a hallway][N][0.0 1.0 0.0][None][N][N]
+[Computer Lab][It's a room full of computers][O][0.0 5.0 5.0][None][N][N]
+[Security Office][It's the security chiefs office. There are some pretty interesting files here, but nothing out of the ordinary][O][1.0 0.0 1.0][None][N][N]
+[Morgue][It's the morgue...every ship has to have one.][O][1.0 0.0 0.0][None][N][N]
+[Unknown Room # 1][It's an empty room with a chair. The chair is missing 2 legs][O][1.0 1.0 1.0][None][N][N]
+[Storage Cabinet #1][It's a storage cabinet. All the shelves are empty...as if they were never stocked to begin with][O][0.5 0.3 0.0][None][N][N]
+[Crews Quarters][The crew quarters here are...empty. The beds look as if they were never used. Everything is in its perfect place.][E][0.0 1.0 0.0][None][N][N]
+[Bathroom][Just an ordinary bathroom...or is it?][O][0.0 1.0 0.0][None][N][N]
+[Kitchen][It's a kitchen. There is a stove still on, with a pot full of water boiling. It must have been turned on recently][N][0.6 0.6 0.6][None][N][N]
+[Teleporter][There is a teleporter in this room. I can attempt to use the teleporter if need be][N][0.0 1.0 0.0][{Activate teleporter}{C}{D2+3}][Success! The teleporter whirs to life!! Unfortunately, it still isn't working][I's not working yet...]
+[Hypnosis Chamber][It seems to be an empty room...wait, there are LEDS all over the wall. They are blinking. They...are...obey...][N][0.0 2.0 7.0][{Snap out of it!}{NC}{M+5}][Huh? Oh shoot! Where was I??][You receive no further transmissions from (agent)]
+/r
+it
+[an Epic Lightsaber][D+3][M][This blade of pure light can do +3 damage whenever you use it] 
+[a Plasma Gun][D+7][O][While incredibly strong, this gun can only be used once. This seems to be a demo gun. It does +7 damage to your attack roll]
+[a literal fork][D+1][M][This fork has been known to be an annoyance to many enemies. It deals +1 damage plus your attack roll]
+[a Sword][D+3][O][This sword is very sharp but it's blade seems brittle. It also seems...out of place. It deals +3 damage plus your attack roll, but can only be used once]
+[a Revolver][N][M][It's an old 50's style revolver. It doesn't do anything]
+[a Physics Textbook][HI+1][O][This physics textbook has never been used. It's as if a college student bought it, and then never opened it. It heals 1 intelligence]
+/it
+o
+[Computer Log][Description][Filler]
+[Video Screen][Description][Filler]
+[Dying Man][Description][Filler]
+[Explosion][Description][Filler]
+[Speakers][Description][Filler]
+/o
+e
+[Sparks Fly][What the!? The room just started emitting sparks!!][M+3][SP+1][M-1]
+/e
+h
+[The MAD MAN][A robot, named MAD MAN, is picked up on the monitor. It shows signs of violence, and means to kill. Be cautious, and eliminate it first][{KILL}][{2 4 25}{1}][N][The MAD MAN falls, its robot body no longer functioning. You have succeeded, but you are no closer to figuring out what happened here...][With your agents gone, the MAD MAN will continue to roam the hallways and corridors of this spaceship. You pray that the next team of agents who stumble upon this spaceship don't meet the same fate.]
+[Quantum Destabilizer][The rooms of this spaceship are starting to destabilize...rooms are collapsing left and right. In order to stop this, you need to stabilize these rooms: Teleporter, Engine Room, and Bridge. Each stabilization requires an intelligence roll of 6+ or higher][{CUSTOM}{Teleporter,Bridge,Engine Room}{I+6}][N][Stabilize Room][You salvage whatever you can from the rest of the spaceship, but you don't get much. Whatever caused that destabilization is still out there, somewhere...][The ship has completely vanished, along with any agents inside it. Wherever they are, you hope they are OK]
+/h
+
+Stuff to add(but currently broken)
+captains quarters
+[Infirmary][There is a dead man in here. His head is missing, but he wrote something in blood before he died. The writing says, "The walls think..."][N][0.0 1.0 0.0][{End Turn Here}{C}{HP+1}][N][N]
+[Stone Statues][Hold on, I'm picking something up here... more people just appeared on the ship!! According to my data, these entities are made purely out of stone, so be cautious. Eliminate on sight.][{KILL}{}][{3 4 5}{5}][N][The stone statues crumble to dust. Their faceless heads start blinking, but the sound you hear is distorted and broken. All you can manage to hear is these words: We are sorry...][The ship, along with your agents, remain silent. You hear no further reports back. You are unsure as to what happened to your agents.]
